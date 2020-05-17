@@ -1,0 +1,103 @@
+@import 'venus.css';
+@import 'tierra.css';
+@import 'marte.css';
+@import 'jupiter.css';
+@import 'saturno.css';
+@import 'urano.css';
+@import 'neptuno.css';
+
+body, html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden; 
+	background-color: #121212;
+ 	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar {
+
+	background-color: transparent !important;
+}
+
+.navbar a {
+	color: white;
+	font-size: 2vw;
+}
+
+.imagenPlanetaMercurio{
+
+	background-image: url("../img/mercurio.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagenPlanetaMercurio .navbar a{
+	color: white;
+}
+
+.card{
+
+    border-radius: 15px;
+    background-color: transparent;
+  }
+
+
+.textoPrincipal{
+
+	font-size: 8vw;
+	color: white;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.textoPlanetaMercurio{
+
+	color: white;
+	font-size: 19px;
+
+}
+
+.nextMercurio .navbar a{
+	margin-top: 70px;
+	margin-left: 1080px;
+	color: white;
+	font-size: 3vw;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body{
+		height: 100%;
+	}
+
+	.imagenPlanetaMercurio{
+		background-image: url("../img/mercurio.jpg");
+		height: 50%;
+	}
+
+	.navbar a{
+		font-size: 7vw;
+		
+
+	}
+
+	.textoPrincipal{
+		margin-top: 210px;
+		font-size: 13vw;
+	}
+
+	.textoPlanetaMercurio{
+		font-size: 23px;
+	}
+
+	.nextMercurio .navbar a{
+		margin-left: 230px;
+		font-size: 6vw;
+
+	}
+
+}
