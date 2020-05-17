@@ -76,11 +76,13 @@ body, html{
 	}
 
 	.textoPrincipalUrano{
+		margin-top: 210px;
+		color: white;
 		font-size: 11vw;
 	}
 
 	.textoPlanetaUrano{
-		font-size: 23px;
+		font-size: 20px;
 	}
 
 	.nextUrano .navbar a{
