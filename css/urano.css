@@ -1,0 +1,92 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden; 
+	background-color: #121212;
+ 	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar {
+
+	background-color: transparent !important;
+}
+
+.navbar a {
+	color: white;
+	font-size: 2vw;
+}
+
+.imagenPlanetaUrano{
+
+	background-image: url("../img/urano.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagenPlanetaUrano .navbar a{
+	color: white;
+}
+
+.card{
+
+    border-radius: 15px;
+    background-color: transparent;
+  }
+
+
+.textoPrincipalUrano{
+
+	font-size: 8vw;
+	color: black;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+.textoPlanetaUrano{
+
+	color: white;
+	font-size: 19px;
+
+}
+
+.nextUrano .navbar a{
+	margin-top: 45px;
+	margin-left: 1080px;
+	color: white;
+	font-size: 3vw;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body{
+		height: 100%;
+	}
+
+	.imagenPlanetaUrano{
+		background-image: url("../img/urano.jpg");
+		height: 50%;
+	}
+
+	.navbar a{
+		font-size: 6vw;
+
+	}
+
+	.textoPrincipalUrano{
+		font-size: 11vw;
+	}
+
+	.textoPlanetaUrano{
+		font-size: 23px;
+	}
+
+	.nextUrano .navbar a{
+		margin-left: 230px;
+		font-size: 6vw;
+
+	}
+
+}

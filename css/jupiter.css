@@ -1,0 +1,89 @@
+body, html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden; 
+	background-color: #121212;
+ 	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.navbar {
+
+	background-color: transparent !important;
+}
+
+.navbar a {
+	color: white;
+	font-size: 2vw;
+}
+
+.imagenPlanetaJupiter{
+
+	background-image: url("../img/jupiter.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.imagenPlanetaJupiter .navbar a{
+	color: white;
+}
+
+.card{
+
+    border-radius: 15px;
+    background-color: transparent;
+  }
+
+
+.textoPrincipal{
+
+	font-size: 8vw;
+	color: white;
+	letter-spacing: 2px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.textoPlanetaJupiter{
+
+	color: white;
+	font-size: 18px;
+
+}
+
+.nextJupiter .navbar a{
+	margin-top: 25px;
+	margin-left: 1080px;
+	color: white;
+	font-size: 3vw;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	body{
+		height: 100%;
+	}
+
+	.imagenPlanetaJupiter{
+		background-image: url("../img/jupiter.jpg");
+		height: 50%;
+	}
+
+	.navbar a{
+		font-size: 6vw;
+
+	}
+
+	.textoPlanetaJupiter{
+		font-size: 23px;
+	}
+
+	.nextJupiter .navbar a{
+		margin-left: 230px;
+		font-size: 6vw;
+
+	}
+
+}
