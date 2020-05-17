@@ -18,7 +18,7 @@ body, html{
 
 .imagenPlaneta{
 
-	background-image: url("img/mercurio.jpg");
+	background-image: url("../img/mercurio.jpg");
 	height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -67,7 +67,7 @@ body, html{
 	}
 
 	.imagenPlaneta{
-		background-image: url("img/mercurio.jpg");
+		background-image: url("../img/mercurio.jpg");
 		height: 50%;
 	}
 
